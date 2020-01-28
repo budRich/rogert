@@ -52,7 +52,7 @@ When **rogert** is started it will enter an "event loop" and listen for keybindi
 
 ## clipboard history
 
-I found a python script made by Byte Commander on [askubuntu.com], that could log clipboard events. I modified it slightly to store each clip in individual files named with the md5 checksum of the content of the clip in: `/tmp/rogert/`, ignoring clips with only white space. Since the filenames are unique to each clip, this made duplication checking automagic. The script do however use the GTK-python bindings (`gi`), and is somewhat bloated (uses ~40MB RAM), but it works really well and both Clipboard and Primary selection is captured. I start [[cliplog.py]] in `.xinitrc`.
+I found a python script made by **Byte Commander** on [askubuntu.com], that could log clipboard events. I modified it slightly to store each clip in individual files named with the md5 checksum of the content of the clip in: `/tmp/rogert/`, ignoring clips with only white space. Since the filenames are unique to each clip, this made duplication checking automagic. The script do however use the GTK-python bindings (`gi`), and is somewhat bloated (uses ~40MB RAM), but it works really well and both Clipboard and Primary selection is captured. I start **cliplog.py** in `.xinitrc`.
 
 ## pasting
 
